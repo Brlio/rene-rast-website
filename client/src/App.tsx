@@ -5,6 +5,9 @@ import Home from "@/pages/Home";
 import NotFound from "@/pages/NotFound";
 import Partners from "@/pages/Partners";
 import Stats from "@/pages/Stats";
+import NightRace from "@/pages/NightRace";
+import FocusTactics from "@/pages/FocusTactics";
+import Equipment from "@/pages/Equipment";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
@@ -17,6 +20,9 @@ function Router() {
       <Route path={"/career"} component={Career} />
       <Route path={"/stats"} component={Stats} />
       <Route path={"/partners"} component={Partners} />
+      <Route path={"/night-race"} component={NightRace} />
+      <Route path={"/focus-tactics"} component={FocusTactics} />
+      <Route path={"/equipment"} component={Equipment} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

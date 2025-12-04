@@ -12,6 +12,9 @@ export default function Header() {
     { name: "CARREIRA", href: "/career" },
     { name: "ESTATÍSTICAS", href: "/stats" },
     { name: "PARCEIROS", href: "/partners" },
+    { name: "CORRIDA NOTURNA", href: "/night-race" },
+    { name: "FOCO", href: "/focus-tactics" },
+    { name: "EQUIPAMENTOS", href: "/equipment" },
   ];
 
   return (

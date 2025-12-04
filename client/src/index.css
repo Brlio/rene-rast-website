@@ -48,76 +48,76 @@
 }
 
 :root {
-  /* Neon Circuit Theme - Dark Mode Forced as Default */
-  --primary: oklch(0.85 0.25 145); /* Bright Neon Green */
-  --primary-foreground: oklch(0.05 0.05 145);
-  --sidebar-primary: oklch(0.6 0.2 145);
+  /* BMW Circuit Theme - Dark Mode Forced as Default */
+  --primary: oklch(0.85 0.25 250); /* Bright BMW Blue */
+  --primary-foreground: oklch(0.05 0.05 250);
+  --sidebar-primary: oklch(0.6 0.2 250);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --background: oklch(0.1 0.02 145); /* Deep Dark Green/Black */
-  --foreground: oklch(0.95 0.02 145);
-  --card: oklch(0.15 0.03 145);
-  --card-foreground: oklch(0.95 0.02 145);
-  --popover: oklch(0.12 0.03 145);
-  --popover-foreground: oklch(0.95 0.02 145);
+  --background: oklch(0.1 0.02 250); /* Deep Dark Blue/Black */
+  --foreground: oklch(0.95 0.02 250);
+  --card: oklch(0.15 0.03 250);
+  --card-foreground: oklch(0.95 0.02 250);
+  --popover: oklch(0.12 0.03 250);
+  --popover-foreground: oklch(0.95 0.02 250);
   --secondary: oklch(0.2 0.05 250); /* Electric Blue tint */
   --secondary-foreground: oklch(0.9 0.05 250);
-  --muted: oklch(0.2 0.02 145);
-  --muted-foreground: oklch(0.6 0.05 145);
-  --accent: oklch(0.6 0.2 145); /* Neon Green Accent */
-  --accent-foreground: oklch(0.05 0.05 145);
+  --muted: oklch(0.2 0.02 250);
+  --muted-foreground: oklch(0.6 0.05 250);
+  --accent: oklch(0.6 0.2 250); /* BMW Blue Accent */
+  --accent-foreground: oklch(0.05 0.05 250);
   --destructive: oklch(0.6 0.25 25); /* Laser Red */
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.3 0.05 145);
-  --input: oklch(0.2 0.02 145);
-  --ring: oklch(0.85 0.25 145);
-  --chart-1: oklch(0.85 0.25 145); /* Neon Green */
+  --border: oklch(0.3 0.05 250);
+  --input: oklch(0.2 0.02 250);
+  --ring: oklch(0.85 0.25 250);
+  --chart-1: oklch(0.85 0.25 250); /* BMW Blue */
   --chart-2: oklch(0.7 0.2 250); /* Electric Blue */
   --chart-3: oklch(0.7 0.25 320); /* Neon Purple */
   --chart-4: oklch(0.8 0.2 60); /* Neon Yellow */
   --chart-5: oklch(0.7 0.25 25); /* Neon Red */
   --radius: 0rem;
-  --sidebar: oklch(0.08 0.02 145);
-  --sidebar-foreground: oklch(0.9 0.02 145);
-  --sidebar-accent: oklch(0.2 0.05 145);
-  --sidebar-accent-foreground: oklch(0.95 0.02 145);
-  --sidebar-border: oklch(0.2 0.05 145);
-  --sidebar-ring: oklch(0.85 0.25 145);
+  --sidebar: oklch(0.08 0.02 250);
+  --sidebar-foreground: oklch(0.9 0.02 250);
+  --sidebar-accent: oklch(0.2 0.05 250);
+  --sidebar-accent-foreground: oklch(0.95 0.02 250);
+  --sidebar-border: oklch(0.2 0.05 250);
+  --sidebar-ring: oklch(0.85 0.25 250);
 }
 
 .dark {
-  /* Neon Circuit Theme - Dark Mode (Primary) */
-  --primary: oklch(0.85 0.25 145); /* Bright Neon Green */
-  --primary-foreground: oklch(0.05 0.05 145);
-  --sidebar-primary: oklch(0.6 0.2 145);
+  /* BMW Circuit Theme - Dark Mode (Primary) */
+  --primary: oklch(0.85 0.25 250); /* Bright BMW Blue */
+  --primary-foreground: oklch(0.05 0.05 250);
+  --sidebar-primary: oklch(0.6 0.2 250);
   --sidebar-primary-foreground: oklch(0.98 0 0);
-  --background: oklch(0.1 0.02 145); /* Deep Dark Green/Black */
-  --foreground: oklch(0.95 0.02 145);
-  --card: oklch(0.15 0.03 145);
-  --card-foreground: oklch(0.95 0.02 145);
-  --popover: oklch(0.12 0.03 145);
-  --popover-foreground: oklch(0.95 0.02 145);
+  --background: oklch(0.1 0.02 250); /* Deep Dark Blue/Black */
+  --foreground: oklch(0.95 0.02 250);
+  --card: oklch(0.15 0.03 250);
+  --card-foreground: oklch(0.95 0.02 250);
+  --popover: oklch(0.12 0.03 250);
+  --popover-foreground: oklch(0.95 0.02 250);
   --secondary: oklch(0.2 0.05 250); /* Electric Blue tint */
   --secondary-foreground: oklch(0.9 0.05 250);
-  --muted: oklch(0.2 0.02 145);
-  --muted-foreground: oklch(0.6 0.05 145);
-  --accent: oklch(0.6 0.2 145); /* Neon Green Accent */
-  --accent-foreground: oklch(0.05 0.05 145);
+  --muted: oklch(0.2 0.02 250);
+  --muted-foreground: oklch(0.6 0.05 250);
+  --accent: oklch(0.6 0.2 250); /* BMW Blue Accent */
+  --accent-foreground: oklch(0.05 0.05 250);
   --destructive: oklch(0.6 0.25 25); /* Laser Red */
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.3 0.05 145);
-  --input: oklch(0.2 0.02 145);
-  --ring: oklch(0.85 0.25 145);
-  --chart-1: oklch(0.85 0.25 145); /* Neon Green */
+  --border: oklch(0.3 0.05 250);
+  --input: oklch(0.2 0.02 250);
+  --ring: oklch(0.85 0.25 250);
+  --chart-1: oklch(0.85 0.25 250); /* BMW Blue */
   --chart-2: oklch(0.7 0.2 250); /* Electric Blue */
   --chart-3: oklch(0.7 0.25 320); /* Neon Purple */
   --chart-4: oklch(0.8 0.2 60); /* Neon Yellow */
   --chart-5: oklch(0.7 0.25 25); /* Neon Red */
-  --sidebar: oklch(0.08 0.02 145);
-  --sidebar-foreground: oklch(0.9 0.02 145);
-  --sidebar-accent: oklch(0.2 0.05 145);
-  --sidebar-accent-foreground: oklch(0.95 0.02 145);
-  --sidebar-border: oklch(0.2 0.05 145);
-  --sidebar-ring: oklch(0.85 0.25 145);
+  --sidebar: oklch(0.08 0.02 250);
+  --sidebar-foreground: oklch(0.9 0.02 250);
+  --sidebar-accent: oklch(0.2 0.05 250);
+  --sidebar-accent-foreground: oklch(0.95 0.02 250);
+  --sidebar-border: oklch(0.2 0.05 250);
+  --sidebar-ring: oklch(0.85 0.25 250);
 }
 
 @layer base {
