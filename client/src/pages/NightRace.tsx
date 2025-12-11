@@ -41,12 +41,12 @@ export default function NightRace() {
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg border border-border group relative">
             <img
-              src="/images/night-race-2.jpg"
+              src="/images/night-race-2.png"
               alt="Luzes da Pista"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute bottom-0 left-0 p-4 bg-black/50 text-white font-mono text-sm">
-              Iluminação da Pista
+            . Iluminação da Pista
             </div>
           </div>
           <div className="overflow-hidden rounded-lg shadow-lg border border-border group relative">
